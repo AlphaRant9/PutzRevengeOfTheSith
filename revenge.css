@@ -11,14 +11,10 @@ body {
 
     color: #FFFF99;
     background-color: black;
-    background-image: url("images/background.jpg");
-    background-repeat: no-repeat;
+    background-image: url("images/background.webp");
     background-size: cover;
     font-family: Verdana, Arial, sans-serif;
     font-weight: bold;
-    height: 100%;                       /* note #1 */
-    margin: 0;                          /* note #2 */
-    overflow: hidden;
 
 }
 
@@ -34,7 +30,6 @@ body {
     box-shadow: 0px 0px 10px 5px white;
     border-radius: 10px;
     padding: 1em;
-    overflow-y: auto;
 
 }
 
@@ -50,6 +45,17 @@ h1 {
 
 }
 
+h2 {
+
+    padding: 0.5em;
+    background-color: rgba(0, 0, 0, 30%);
+    width: fit-content;
+    margin-left: 0;
+    margin-right: auto;
+    border-radius: 15px;
+
+}
+
 nav {
 
     text-align: center;
@@ -57,6 +63,8 @@ nav {
     width: fit-content;
     margin-left: auto;
     margin-right: auto;
+    padding: 0 8px;
+    border-radius: 8px;
 
 }
 
@@ -89,6 +97,12 @@ span {
 
 #thumbnail {
 
-    position: relative;
+}
 
+#thumbnail span {
+    position: absolute;
+    min-height: 300px;
+    max-height: 700px;
+    margin: 0 0 auto 15%;
+    overflow: auto;
 }
