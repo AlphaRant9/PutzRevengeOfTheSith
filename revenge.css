@@ -10,9 +10,11 @@ main {
 body {
 
     color: #FFFF99;
-    background-color: black;
-    background-image: url("images/background.webp");
+    background-image: url("images/background.jpg");
     background-size: cover;
+    background-attachment: fixed;
+    background-position: top center;
+    background-color: transparent;
     font-family: Verdana, Arial, sans-serif;
     font-weight: bold;
 
@@ -94,10 +96,6 @@ span {
      padding: 8px;
 
  }
-
-#thumbnail {
-
-}
 
 #thumbnail span {
     position: absolute;
