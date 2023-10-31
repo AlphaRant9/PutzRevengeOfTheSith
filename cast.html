@@ -3,22 +3,197 @@
 <head>
     <meta charset="UTF-8">
     <title>Cast | Star Wars: Revenge of the Sith</title>
-    <link rel="stylesheet" href="revenge.css">
+    <link href="revenge.css" rel="stylesheet">
+    <style>
+        h2 {
+            float: left;
+            position: fixed;
+            width: 90px;
+        }
+
+        #credits {
+            float: left;
+            position: fixed;
+            margin-top: 90px;
+            width: 90px;
+            font-size: 0.8em;
+        }
+
+        main ul {
+            list-style-type: none;
+            margin-left: 100px;
+        }
+
+        main ul li {
+            display: inline-block;
+            text-align: center;
+            background-color: rgba(0, 0, 0, 25%);
+            border-radius: 15px;
+            padding: 8px;
+            margin: 5px 15px;
+            width: 144px;
+        }
+
+        main ul li img {
+            border-radius: 10px;
+        }
+
+        @media only screen and (max-aspect-ratio: 1/1) {
+
+            #credits {
+                float: none;
+                position: relative;
+                width: 80%;
+                font-size: 0.8em;
+            }
+
+            h2 {
+                float: none;
+                position: relative;
+                width: fit-content;
+                margin: 0 auto;
+            }
+
+            main ul {
+                margin-left: 0;
+            }
+
+        }
+    </style>
 </head>
 <body>
 <div id="wrapper">
-<header><h1>Star Wars: Revenge of the Sith</h1></header>
-
-    <nav><a href="index.html">Home</a>&nbsp;
-        Cast&nbsp;
-        <a href="plot.html">Plot</a>&nbsp;
-        <a href="ratings.html">Ratings</a>&nbsp;
-        <a href="watch.html">Where to Watch</a>
+    <header><h1>Star Wars: Revenge of the Sith</h1></header>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a>&nbsp;</li>
+            <li>Cast&nbsp;</li>
+            <li><a href="plot.html">Plot</a>&nbsp;</li>
+            <li><a href="ratings.html">Ratings</a>&nbsp;</li>
+            <li><a href="watch.html">Where to Watch</a></li>
+        </ul>
     </nav>
     
-<main>
-    <h2>Cast</h2>
-</main>
+    <main>
+        <h2>Cast</h2>
+        <p id="credits">Click on the picture to go to the source of the image (for credit and attributions)</p>
+        
+        <ul>
+            <li>
+                <a href="https://commons.wikimedia.org/wiki/File:Hayden-cfda2010-0004(1)_(cropped).jpg"
+                   title="Gál Tímea, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons">
+                    <img alt="Hayden Christensen" height="auto"
+                         src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Hayden-cfda2010-0004%281%29_%28cropped%29.jpg/256px-Hayden-cfda2010-0004%281%29_%28cropped%29.jpg"
+                         width="128px"></a>
+                Hayden Christensen as Anakin Skywalker
+            </li>
+            <li>
+                <a href="https://commons.wikimedia.org/wiki/File:EwanMcGregor2023.jpg"
+                   title="Philip Romano, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons">
+                    <img alt="Ewan McGregor" height="auto"
+                         src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/EwanMcGregor2023.jpg/128px-EwanMcGregor2023.jpg"
+                         width="128"></a>
+                Ewan McGregor as Obi-Wan Kenobi
+            </li>
+            <li>
+                <a href="https://commons.wikimedia.org/wiki/File:Ian_McDiarmid_Brussels_Comic_Con_2020.jpg"
+                   title="Miguel Discart, CC BY-SA 2.0 &lt;https://creativecommons.org/licenses/by-sa/2.0&gt;, via Wikimedia Commons">
+                    <img alt="Ian McDiarmid Brussels Comic Con 2020"
+                         src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Ian_McDiarmid_Brussels_Comic_Con_2020.jpg/128px-Ian_McDiarmid_Brussels_Comic_Con_2020.jpg"
+                         width="128"></a>
+                Ian McDiarmid as Sheev Palpatine
+            </li>
+            <li>
+                <a href="https://commons.wikimedia.org/wiki/File:Natalie_Portman_(48470988352)_(cropped).jpg"
+                   title="Gage Skidmore from Peoria, AZ, United States of America, CC BY-SA 2.0 &lt;https://creativecommons.org/licenses/by-sa/2.0&gt;, via Wikimedia Commons"><img
+                        alt="Natalie Portman (48470988352) (cropped)"
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Natalie_Portman_%2848470988352%29_%28cropped%29.jpg/128px-Natalie_Portman_%2848470988352%29_%28cropped%29.jpg"
+                        width="128"></a>Natalie
+                Portman as Padmé Amidala
+            </li>
+            <li>
+                <a href="https://commons.wikimedia.org/wiki/File:Christopher_Lee_at_the_Berlin_International_Film_Festival_2013.jpg"
+                   title="Avda, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons"><img
+                        alt="Christopher Lee at the Berlin International Film Festival 2013"
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Christopher_Lee_at_the_Berlin_International_Film_Festival_2013.jpg/128px-Christopher_Lee_at_the_Berlin_International_Film_Festival_2013.jpg"
+                        width="128"></a>Christopher
+                Lee as Count Dooku
+            </li>
+            <li>
+                <a href="https://commons.wikimedia.org/wiki/File:Jimmy_Smits_by_Gage_Skidmore.jpg"
+                   title="Gage Skidmore, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons"><img
+                        alt="Jimmy Smits by Gage Skidmore"
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Jimmy_Smits_by_Gage_Skidmore.jpg/128px-Jimmy_Smits_by_Gage_Skidmore.jpg"
+                        width="128"></a>Jimmy
+                Smits as Senator Bail Organa
+            </li>
+            <li>
+                <a href="https://commons.wikimedia.org/wiki/File:10.2.10BonniePiesseByLuigiNovi1.jpg"
+                   title="Luigi Novi, CC BY 3.0 &lt;https://creativecommons.org/licenses/by/3.0&gt;, via Wikimedia Commons"><img
+                        alt="10.2.10BonniePiesseByLuigiNovi1"
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/10.2.10BonniePiesseByLuigiNovi1.jpg/256px-10.2.10BonniePiesseByLuigiNovi1.jpg"
+                        width="128"></a>Bonnie
+                Piesse as Beru Lars
+            </li>
+            <li>
+                <a href="https://commons.wikimedia.org/wiki/File:Matthew_Wood_Brussels_Comic_Con_2019.jpg"
+                   title="Miguel Discart, CC BY-SA 2.0 &lt;https://creativecommons.org/licenses/by-sa/2.0&gt;, via Wikimedia Commons"><img
+                        alt="Matthew Wood Brussels Comic Con 2019"
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Matthew_Wood_Brussels_Comic_Con_2019.jpg/128px-Matthew_Wood_Brussels_Comic_Con_2019.jpg"
+                        width="128"></a>Matthew
+                Wood as General Grievous
+            </li>
+            <li>
+                <a href="https://commons.wikimedia.org/wiki/File:Frank_Oz_2012.jpg"
+                   title="The Conmunity -  Pop Culture Geek from Los Angeles, CA, USA, CC BY 2.0 &lt;https://creativecommons.org/licenses/by/2.0&gt;, via Wikimedia Commons"><img
+                        alt="Frank Oz 2012"
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Frank_Oz_2012.jpg/128px-Frank_Oz_2012.jpg"
+                        width="128"></a>Frank
+                Oz as Yoda
+            </li>
+            <li>
+                <a href="https://commons.wikimedia.org/wiki/File:Joel_Edgerton_by_Gage_Skidmore.jpg"
+                   title="Gage Skidmore, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons"><img
+                        alt="Joel Edgerton by Gage Skidmore"
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Joel_Edgerton_by_Gage_Skidmore.jpg/128px-Joel_Edgerton_by_Gage_Skidmore.jpg"
+                        width="128"></a>Joel
+                Edgerton as Owen Lars
+            </li>
+            <!-- TODO Finish this bozo -->
+            <li>Kenny Baker as R2-D2</li>
+            <li>Silas Carson as Ki-Adi-Mundi, Nute Gunray</li>
+            <li>Temuera Morrison as Commander Cody, Clone Trooper</li>
+            <li>Anthony Daniels as C-3PO</li>
+            <li>Bruce Spence as Tion Medon</li>
+            <li>Wayne Pygram as Wilhuff Tarkin</li>
+            <li>Peter Mayhew as Chewbacca</li>
+            <li>Keisha Castle-Hughes as Queen Apailana</li>
+            <li>Jeremy Bulloch as Captain Jeremoch Colton</li>
+            <li>Rebecca Jackson Mendoza as Breha Organa</li>
+            <li>Oliver Ford Davies as Govenor Sio Bibble</li>
+            <li>Rohan Nichol as Captain Antilles</li>
+            <li>Ahmed Best as Jar Jar Binks</li>
+            <li>Michael Kingma as Wookiee General Tarfful</li>
+            <li>Genevieve O'Reilly as Mon Mothma</li>
+            <li>Amanda Lucas as Terr Taneel</li>
+            <li>Amy Allen as Aayla Secura</li>
+            <li>Jett Lucas as Zett Jukassa</li>
+            <li>Christopher Kirby as Giddean Danu</li>
+            <li>Katie Lucas as Chi Eekway</li>
+            <li>Claudia Karvan as Sola Naberrie</li>
+            <li>Trisha Noble as Jobal Naberrie</li>
+            <li>Kristy Wright as Moteé</li>
+            <li>Graeme Blundell as Ruwee Naberrie</li>
+            <li>Bodie Taylor as Clone Trooper</li>
+            <li>Kee Chan as Malé-Dee</li>
+            <li>Keira Wingate as Ryoo Naberrie</li>
+            <li>Sandi Finlay as Sly Moore</li>
+            <li>Hayley Mooy as Pooja Naberrie</li>
+            <li>Samuel L. Jackson as Mace Windu</li>
+            <li>Bai Ling as Senator Bana Breemu</li>
+        </ul>
+    </main>
 </div>
 </body>
 </html>
