@@ -53,27 +53,34 @@ h2 {
 }
 
 nav {
+    float: left;
+    max-width: 150px;
+    width: 150px;
     text-align: center;
     background-color: rgba(0, 0, 0, 25%);
-    width: fit-content;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0 8px;
-    border-radius: 8px;
+    position: fixed;
+    border-radius: 15px;
 }
 
 nav ul {
     list-style-type: none;
     text-align: left;
-    padding: 0;
+    max-width: 150px;
+    width: 150px;
+    margin: 0;
+    padding: 5px 10px;
 }
 
 nav li {
-    display:inline-block;
+    display: block;
     position: relative;
-    text-align: center;
+    text-align: left;
     list-style: none;
-    white-space: nowrap;
+    text-wrap: normal;
+    padding: 0.5em 0;
+    font-size: 1em;
+    max-width: 150px;
+    width: 150px;
 }
 
 nav a {
@@ -108,40 +115,46 @@ span {
 
 #index-content {
     margin-right: 425px;
+    margin-left: 150px;
 }
 
 @media only screen and (max-aspect-ratio: 1/1) {
 
+    #index-content {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
     nav {
-        float: left;
-        max-width: 150px;
-        width: 150px;
+        float: none;
+        clear: both;
+        position: relative;
         text-align: center;
         background-color: rgba(0, 0, 0, 25%);
-        position: fixed;
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0 8px;
+        border-radius: 8px;
+        font-size: 2em;
     }
 
     nav ul {
         list-style-type: none;
         text-align: left;
-        max-width: 150px;
-        width: 150px;
+        padding: 0;
     }
 
     nav li {
         display: block;
         position: relative;
-        text-align: left;
+        text-align: center;
         list-style: none;
-        white-space: nowrap;
         padding: 1em 0;
-        font-size: 1em;
-        max-width: 150px;
-        width: 150px;
     }
 
     main {
-        margin-left: 160px;
+        margin-left: 0;
         padding: 5px;
     }
 

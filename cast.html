@@ -6,17 +6,18 @@
     <link href="revenge.css" rel="stylesheet">
     <style>
         h2 {
-            float: left;
-            position: fixed;
-            width: 90px;
+            margin-left: auto;
+            margin-right: auto;
+            width: fit-content;
         }
 
         #credits {
             float: left;
             position: fixed;
-            margin-top: 90px;
-            width: 90px;
-            font-size: 0.8em;
+            text-align: left;
+            margin: 215px 0 0;
+            width: 150px;
+            font-size: 1em;
         }
 
         main ul {
@@ -41,6 +42,7 @@
         @media only screen and (max-aspect-ratio: 1/1) {
 
             #credits {
+                display: none;
                 float: none;
                 position: relative;
                 width: 80%;
@@ -71,13 +73,14 @@
             <li>Cast&nbsp;</li>
             <li><a href="plot.html">Plot</a>&nbsp;</li>
             <li><a href="ratings.html">Ratings</a>&nbsp;</li>
-            <li><a href="watch.html">Where to Watch</a></li>
+            <li><a href="watch.html">Where to<br>Watch</a></li>
         </ul>
     </nav>
     
+    <p id="credits">Click on the picture to go to the source of the image (for credit and attributions)</p>
+    
     <main>
         <h2>Cast</h2>
-        <p id="credits">Click on the picture to go to the source of the image (for credit and attributions)</p>
         
         <ul>
             <li>
