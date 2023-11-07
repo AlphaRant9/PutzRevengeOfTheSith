@@ -77,7 +77,8 @@ nav li {
     text-align: left;
     list-style: none;
     text-wrap: normal;
-    padding: 0.5em 0;
+    padding: 0.5em 0.25em;
+    text-indent: 0;
     font-size: 1em;
     max-width: 150px;
     width: 150px;
