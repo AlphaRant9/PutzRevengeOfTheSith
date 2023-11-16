@@ -118,3 +118,20 @@ span {
     margin-right: 425px;
     margin-left: 150px;
 }
+
+footer p {
+    margin: auto;
+    font-size: smaller;
+}
+
+footer a:link {
+    color: #FFFF99;
+}
+
+footer a:hover {
+    color: #FFFF55;
+}
+
+footer a:visited {
+    color: #FFFF99;
+}
