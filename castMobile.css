@@ -1,0 +1,18 @@
+#credits {
+    display: none;
+    float: none;
+    position: relative;
+    width: 80%;
+    font-size: 0.8em;
+}
+
+h2 {
+    float: none;
+    position: relative;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+main ul {
+    margin-left: 0;
+}

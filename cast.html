@@ -3,65 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <title>Cast | Star Wars: Revenge of the Sith</title>
-    <link href="revenge.css" rel="stylesheet">
-    <style>
-        h2 {
-            margin-left: auto;
-            margin-right: auto;
-            width: fit-content;
+    <script>
+        var bMobile =   // will be true if running on a mobile device
+            navigator.userAgent.indexOf( "Mobile" ) !== -1 ||
+            navigator.userAgent.indexOf( "iPhone" ) !== -1 ||
+            navigator.userAgent.indexOf( "Android" ) !== -1 ||
+            navigator.userAgent.indexOf( "Windows Phone" ) !== -1 ;
+
+        if (bMobile) {
+            document.write('<link rel="stylesheet" href="revengeMobile.css">');
+            document.write('<link rel="stylesheet" href="castMobile.css">');
+        } else {
+            document.write('<link rel="stylesheet" href="revenge.css">');
+            document.write('<link rel="stylesheet" href="cast.css">');
         }
-
-        #credits {
-            float: left;
-            position: fixed;
-            text-align: left;
-            margin: 215px 0 0;
-            width: 150px;
-            font-size: 1em;
-        }
-
-        main ul {
-            list-style-type: none;
-            margin-left: 100px;
-        }
-
-        main ul li {
-            display: inline-block;
-            text-align: center;
-            background-color: rgba(0, 0, 0, 25%);
-            border-radius: 15px;
-            padding: 8px;
-            margin: 5px 15px;
-            width: 144px;
-        }
-
-        main ul li img {
-            border-radius: 10px;
-        }
-
-        @media only screen and (max-aspect-ratio: 1/1) {
-
-            #credits {
-                display: none;
-                float: none;
-                position: relative;
-                width: 80%;
-                font-size: 0.8em;
-            }
-
-            h2 {
-                float: none;
-                position: relative;
-                width: fit-content;
-                margin: 0 auto;
-            }
-
-            main ul {
-                margin-left: 0;
-            }
-
-        }
-    </style>
+    </script>
 </head>
 <body>
 <div id="wrapper">
