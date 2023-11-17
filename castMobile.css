@@ -1,11 +1,14 @@
 @import "cast.css";
 
 #credits {
-    display: none;
+    /*display: none;*/
+    margin-left: 180px;
     float: none;
+    margin-top: 2%;
     position: relative;
-    width: 80%;
-    font-size: 0.8em;
+    width: fit-content;
+    margin-right: auto;
+    font-size: 1.5em;
 }
 
 h2 {
@@ -15,7 +18,19 @@ h2 {
     margin: 0 auto;
 }
 
+#firstOne {
+    margin-top: 0;
+}
+
 @media only screen and (max-aspect-ratio: 1/1) {
+
+    #credits {
+        /*display: none;*/
+        margin-left: auto;
+        font-size: 250%;
+        width: 75%;
+    }
+
     main ul {
         margin-left: 0;
     }
@@ -33,4 +48,9 @@ h2 {
         font-size: 100%;
         scale: 3.75;
     }
+
+    #firstOne {
+        margin-top: 65%;
+    }
+
 }
