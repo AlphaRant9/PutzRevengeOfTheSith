@@ -27,7 +27,7 @@ h2 {
     main ul li {
         display: block;
         margin: 900px auto;
-        font-size: 125%;
+        font-size: 100%;
         scale: 3.75;
     }
 }
