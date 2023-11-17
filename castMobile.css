@@ -27,7 +27,7 @@ h2 {
     main ul li {
         display: block;
         overflow-wrap: break-word;
-        margin: 100% auto;
+        margin: 120% auto;
         font-size: 100%;
         scale: 3.75;
     }
