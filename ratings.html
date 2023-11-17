@@ -3,12 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>Ratings | Star Wars: Revenge of the Sith</title>
+    <link href="images/favicon.png" rel="icon" type="image/x-icon">
     <script>
         var bMobile =   // will be true if running on a mobile device
-            navigator.userAgent.indexOf( "Mobile" ) !== -1 ||
-            navigator.userAgent.indexOf( "iPhone" ) !== -1 ||
-            navigator.userAgent.indexOf( "Android" ) !== -1 ||
-            navigator.userAgent.indexOf( "Windows Phone" ) !== -1 ;
+            navigator.userAgent.indexOf("Mobile") !== -1 ||
+            navigator.userAgent.indexOf("iPhone") !== -1 ||
+            navigator.userAgent.indexOf("iPad") !== -1 ||
+            navigator.userAgent.indexOf("Android") !== -1 ||
+            navigator.userAgent.indexOf("Windows Phone") !== -1;
 
         if (bMobile) {
             document.write('<link rel="stylesheet" href="revengeMobile.css">');
@@ -19,18 +21,25 @@
 </head>
 <body>
 <div id="wrapper">
-<header><h1>Star Wars: Revenge of the Sith</h1></header>
-
-    <nav><a href="index.html">Home</a>&nbsp;
-        <a href="cast.html">Cast</a>&nbsp;
-        <a href="plot.html">Plot</a>&nbsp;
-        Ratings&nbsp;
-        <a href="watch.html">Where to Watch</a>
+    <header><h1>Star Wars: Revenge of the Sith</h1></header>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a>&nbsp;</li>
+            <li><a href="cast.html">Cast</a>&nbsp;</li>
+            <li><a href="plot.html">Plot</a>&nbsp;</li>
+            <li>Ratings&nbsp;</li>
+            <li><a href="watch.html">Where to Watch</a></li>
+        </ul>
     </nav>
     
-<main>
-    <h2></h2>
-</main>
+    <main>
+        <h2></h2>
+    </main>
+    <footer>
+        <p>This site uses material from the <a href="https://starwars.fandom.com/wiki/Galactic_Roundel">Wookieepedia
+            article "Galactic Roundel."</a></p>
+    </footer>
 </div>
 </body>
 </html>

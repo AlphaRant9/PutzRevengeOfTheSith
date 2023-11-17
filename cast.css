@@ -26,6 +26,13 @@ main ul li {
     padding: 8px;
     margin: 5px 15px;
     width: 144px;
+    font-weight: bold;
+}
+
+strong {
+    font-weight: bolder;
+    color: #FFFF77;
+    text-decoration: underline;
 }
 
 main ul li img {

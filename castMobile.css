@@ -1,3 +1,5 @@
+@import "cast.css";
+
 #credits {
     display: none;
     float: none;
@@ -13,6 +15,19 @@ h2 {
     margin: 0 auto;
 }
 
-main ul {
-    margin-left: 0;
+@media only screen and (max-aspect-ratio: 1/1) {
+    main ul {
+        margin-left: 0;
+    }
+
+    h2 {
+        font-size: 300%;
+    }
+
+    main ul li {
+        display: block;
+        margin: 900px auto;
+        font-size: 125%;
+        scale: 3.75;
+    }
 }
