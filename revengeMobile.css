@@ -15,9 +15,16 @@ body {
 
 @media only screen and (max-aspect-ratio: 1/1) {
 
-    #index-content {
-        margin-right: 0;
-        margin-left: 0;
+    #wrapper {
+        height: 100%;
+        width: 95%;
+        margin: auto;
+        min-width: 0;
+        padding: 0;
+    }
+
+    h1 {
+        font-size: 2.5em;
     }
 
     nav {
@@ -59,26 +66,20 @@ body {
         padding: 5px;
     }
 
-    #thumbnail {
-        display: none;
-        position: absolute;
-    }
-
-    #wrapper {
-        height: 100%;
-        width: 95%;
-        margin: auto;
-        min-width: 0;
-        padding: 0;
-    }
-
-    h1 {
-        font-size: 2.5em;
-    }
-
     p {
         font-size: 250%;
         padding: 15px;
+    }
+
+
+    #index-content {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    #thumbnail {
+        display: none;
+        position: absolute;
     }
 
     #index-content {

@@ -29,12 +29,12 @@ main ul li {
     font-weight: bold;
 }
 
+main ul li img {
+    border-radius: 10px;
+}
+
 strong {
     font-weight: bolder;
     color: #FFFF77;
     text-decoration: underline;
-}
-
-main ul li img {
-    border-radius: 10px;
 }
