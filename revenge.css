@@ -129,3 +129,15 @@ footer a:visited {
     margin-right: 425px;
     margin-left: 150px;
 }
+
+noscript {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 75%);
+    color: black;
+    font-size: 1.167em;
+    width: 300px;
+    border-radius: 15px;
+}
