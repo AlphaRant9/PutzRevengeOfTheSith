@@ -81,6 +81,10 @@ nav a {
     text-align: center;
 }
 
+main {
+    margin-left: 150px;
+}
+
 h2 {
     padding: 0.5em;
     background-color: rgba(0, 0, 0, 30%);
@@ -127,7 +131,6 @@ footer a:visited {
 
 #index-content {
     margin-right: 425px;
-    margin-left: 150px;
 }
 
 noscript {
