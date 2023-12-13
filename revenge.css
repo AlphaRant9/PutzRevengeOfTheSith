@@ -102,6 +102,26 @@ p {
     padding: 8px;
 }
 
+ul {
+    text-align: left;
+    background-color: rgba(0, 0, 0, 25%);
+    width: fit-content;
+    border-radius: 15px;
+    padding: 8px 8px 8px 30px;
+}
+
+main a:link {
+    color: #FFFF99;
+}
+
+main a:hover {
+    color: #FFFF55;
+}
+
+main a:visited {
+    color: #FFFF99;
+}
+
 footer p {
     margin: auto;
     text-align: center;
