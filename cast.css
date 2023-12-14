@@ -15,6 +15,7 @@ h2 {
 
 main ul {
     list-style-type: none;
+    background-color: transparent;
 }
 
 main ul li {

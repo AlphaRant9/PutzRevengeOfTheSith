@@ -30,26 +30,26 @@ h2 {
     }
 
     #credits {
-        /*display: none;*/
         margin-left: auto;
-        font-size: 250%;
+        font-size: 350%;
         width: 75%;
     }
 
     main ul {
-        margin-left: 0;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     main ul li {
         display: block;
         overflow-wrap: break-word;
-        margin: 120% auto;
-        font-size: 100%;
+        margin: 750% auto;
+        font-size: 50%;
         scale: 3.75;
     }
 
     #firstOne {
-        margin-top: 65%;
+        margin-top: 300%;
     }
 
 }

@@ -20,6 +20,7 @@
             document.write('<link rel="stylesheet" href="revenge.css">');
         }
     </script>
+    <script src="DisplayMenu.js"></script>
     <noscript><link rel="stylesheet" href="revenge.css"></noscript>
 </head>
 <body>
@@ -27,7 +28,8 @@
 <div id="wrapper">
     <header><h1>Star Wars: Revenge of the Sith</h1></header>
     
-    <nav>
+    <div id="menu-button"><a href="#" onclick="displayMenu()">Menu</a></div>
+    <nav id="menu">
         <ul>
             <li><a href="index.html">Home</a>&nbsp;</li>
             <li><a href="cast.html">Cast</a>&nbsp;</li>

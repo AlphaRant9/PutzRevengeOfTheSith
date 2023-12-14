@@ -43,6 +43,22 @@ h1 {
     border-radius: 15px;
 }
 
+#menu-button {
+    display: none;
+}
+
+#menu-button a:link {
+    color: #FFFF99;
+}
+
+#menu-button a:hover {
+    color: #FFFF55;
+}
+
+#menu-button a:visited {
+    color: #FFFF99;
+}
+
 nav {
     float: left;
     max-width: 150px;

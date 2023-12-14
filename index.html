@@ -20,6 +20,7 @@
             document.write('<link rel="stylesheet" href="revenge.css">');
         }
     </script>
+    <script src="DisplayMenu.js"></script>
     <noscript><link rel="stylesheet" href="revenge.css"></noscript>
 </head>
 <body>
@@ -27,7 +28,8 @@
 <div id="wrapper">
     <header><h1>Star Wars: Revenge of the Sith</h1></header>
     
-    <nav>
+    <div id="menu-button"><a href="#" onclick="displayMenu()">Menu</a></div>
+    <nav id="menu">
         <ul>
             <li>Home&nbsp;</li>
             <li><a href="cast.html">Cast</a>&nbsp;</li>
@@ -43,7 +45,6 @@
              id="thumbnail" src="images/thumb.jpg"
              width="400px">
         <div id="index-content" style="">
-            <p><a href="sms:+13192294268?&body=Hi%2520there%252C%2520I%2527d%2520like%2520to%2520place%2520an%2520order%2520for...">Click here to text us!</a></p>
             <p>
                 Welcome to a galaxy far, far away, where the fate of the universe hangs in the balance. Step into the
                 epic
