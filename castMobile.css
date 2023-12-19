@@ -39,7 +39,7 @@ h2 {
     main ul li {
         display: block;
         overflow-wrap: break-word;
-        /*font-size: 35%;*/
+        font-size: 135%;
         margin: 250% auto;
         scale: 2;
     }
