@@ -43,13 +43,13 @@ h2 {
     main ul li {
         display: block;
         overflow-wrap: break-word;
-        font-size: 20%;
+        font-size: 35%;
         margin: 250% auto;
         scale: 2;
     }
 
     #firstOne {
-        margin-top: 40%;
+        margin-top: 50%;
     }
 
     #lastOne {
