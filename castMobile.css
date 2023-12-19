@@ -24,14 +24,14 @@ h2 {
 @media only screen and (max-aspect-ratio: 1/1) {
 
     h2 {
-        font-size: 1000%;
+        font-size: 150px;
         padding: 0 15px 0 0;
         margin-top: 5%;
     }
 
     #credits {
         margin-left: auto;
-        font-size: 350%;
+        font-size: 60px;
         width: 75%;
     }
 
@@ -43,13 +43,13 @@ h2 {
     main ul li {
         display: block;
         overflow-wrap: break-word;
-        margin: 750% auto;
+        margin: 1100px auto;
         font-size: 50%;
         scale: 3.75;
     }
 
     #firstOne {
-        margin-top: 300%;
+        margin-top: 500px;
     }
 
 }
