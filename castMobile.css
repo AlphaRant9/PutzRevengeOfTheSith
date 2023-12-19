@@ -43,8 +43,8 @@ h2 {
     main ul li {
         display: block;
         overflow-wrap: break-word;
+        font-size: 60%;
         margin: 150% auto;
-        /*font-size: 50%;*/
         scale: 1.5;
     }
 
