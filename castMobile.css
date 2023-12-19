@@ -43,9 +43,9 @@ h2 {
     main ul li {
         display: block;
         overflow-wrap: break-word;
-        font-size: 60%;
-        margin: 150% auto;
-        scale: 1.5;
+        font-size: 20%;
+        margin: 250% auto;
+        scale: 2;
     }
 
     #firstOne {
