@@ -135,6 +135,10 @@ p {
     padding: 8px 8px 8px 30px;
 }
 
+#castHeading {
+    margin-left: 150px;
+}
+
 #castList {
     list-style-type: none;
     background-color: transparent;
