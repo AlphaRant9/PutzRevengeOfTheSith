@@ -97,9 +97,7 @@ body {
     main ul {
         list-style-type: circle;
         text-align: left;
-        padding: 0;
-        width: auto;
-        max-width: 10000000px;
+        padding: 5px;
     }
 
     p {
