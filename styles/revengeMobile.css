@@ -103,23 +103,6 @@ body {
         padding: 15px 15px 15px 0;
     }
 
-    main ul li {
-        display: block;
-        overflow-wrap: break-word;
-        font-size: 135%;
-        margin: 175% auto;
-        padding: 8px 8px 8px 0;
-        scale: 1.5;
-    }
-
-    /*#firstOne {*/
-    /*    margin-top: 70%;*/
-    /*}*/
-
-    /*#lastOne {*/
-    /*    margin-bottom: 40%;*/
-    /*}*/
-
     #index-content {
         margin-right: 0;
         margin-left: 0;
