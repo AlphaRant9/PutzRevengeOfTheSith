@@ -10,7 +10,7 @@
     font-size: 1.5em;
 }
 
-@media only screen and (max-aspect-ratio: 1/1) {
+@media only screen and (max-width: 768px) {
 
     #credits {
         margin-left: auto;
