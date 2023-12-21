@@ -17,21 +17,15 @@
 
         if (bMobile) {
             document.write('<link rel="stylesheet" href="revengeMobile.css">');
+            document.write('<link rel="stylesheet" href="castMobile.css">');
         } else {
-            document.write('<link rel="stylesheet" href="revenge.css">' +
-                '<style>\n' +
-                '#credits {\n' +
-                '    float: left;\n' +
-                '    position: fixed;\n' +
-                '    text-align: left;\n' +
-                '    margin: 215px 0 0;\n' +
-                '    width: 150px;\n' +
-                '    font-size: 1em;\n' +
-                '}</style>');
+            document.write('<link rel="stylesheet" href="revenge.css">');
+            document.write('<link rel="stylesheet" href="cast.css">');
         }
     </script>
     <script src="DisplayMenu.js"></script>
-    <noscript><link rel="stylesheet" href="revenge.css"></noscript>
+    <noscript><link rel="stylesheet" href="revenge.css">
+              <link rel="stylesheet" href="cast.css"></noscript>
 </head>
 <body>
 <noscript>JavaScript is required for this website to load properly on mobile devices.</noscript>
@@ -49,13 +43,13 @@
         </ul>
     </nav>
     
-    <h2 id="castHeading">Cast</h2>
+    <h2>Cast</h2>
     
     <p id="credits">Click on the picture to go to the source of the image (for credit and attributions)</p>
     
     <main>
         
-        <ul id="castList">
+        <ul>
             <li id="firstOne">
                 <a href="https://commons.wikimedia.org/wiki/File:Hayden-cfda2010-0004(1)_(cropped).jpg"
                    title="Gál Tímea, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons">

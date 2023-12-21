@@ -13,16 +13,6 @@ body {
     border-radius: 0;
 }
 
-#credits {
-    margin-left: 180px;
-    float: none;
-    margin-top: 2%;
-    position: relative;
-    width: fit-content;
-    margin-right: auto;
-    font-size: 1.5em;
-}
-
 @media only screen and (max-aspect-ratio: 1/1) {
 
     #wrapper {
@@ -31,12 +21,6 @@ body {
         margin: auto;
         min-width: 0;
         padding: 0;
-    }
-
-    #credits {
-        margin-left: auto;
-        font-size: 2em;
-        width: 75%;
     }
 
     h1 {
@@ -108,33 +92,6 @@ body {
         margin-left: auto;
         margin-right: auto;
         padding: 5px;
-    }
-
-    #castHeading {
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    #castList {
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    #castList li {
-        display: block;
-        overflow-wrap: break-word;
-        font-size: 135%;
-        margin: 250% auto;
-        padding: 8px 8px 8px 0;
-        scale: 1.5;
-    }
-
-    #firstOne {
-        margin-top: 70%;
-    }
-
-    #lastOne {
-        margin-bottom: 40%;
     }
 
     p {

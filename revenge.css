@@ -28,7 +28,7 @@ body {
     margin: 3.5em auto;
     background-color: #000044;
     background-image: url("images/panel.jpg");
-    box-shadow: 0px 0px 10px 5px white;
+    box-shadow: 0 0 10px 5px white;
     border-radius: 10px;
     padding: 1em;
 }
@@ -118,42 +118,12 @@ p {
     padding: 8px;
 }
 
-#watchList {
+ul {
     text-align: left;
     background-color: rgba(0, 0, 0, 25%);
     width: fit-content;
     border-radius: 15px;
     padding: 8px 8px 8px 30px;
-}
-
-#castHeading {
-    margin-left: 150px;
-}
-
-#castList {
-    list-style-type: none;
-    background-color: transparent;
-}
-
-#castList li {
-    display: inline-block;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 25%);
-    border-radius: 15px;
-    padding: 8px;
-    margin: 5px 15px;
-    width: 144px;
-    font-weight: bold;
-}
-
-#castList li img {
-    border-radius: 10px;
-}
-
-#castList strong {
-    font-weight: bolder;
-    color: #FFFF77;
-    text-decoration: underline;
 }
 
 main a:link {

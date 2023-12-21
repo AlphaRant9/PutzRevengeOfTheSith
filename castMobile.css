@@ -1,0 +1,43 @@
+@import "cast.css";
+
+#credits {
+    margin-left: 180px;
+    float: none;
+    margin-top: 2%;
+    position: relative;
+    width: fit-content;
+    margin-right: auto;
+    font-size: 1.5em;
+}
+
+@media only screen and (max-width: 768px) {
+
+    #credits {
+        margin-left: auto;
+        font-size: 2em;
+        width: 75%;
+    }
+
+    main ul {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    main ul li {
+        display: block;
+        overflow-wrap: break-word;
+        font-size: 135%;
+        margin: 250% auto;
+        padding: 8px 8px 8px 0;
+        scale: 1.5;
+    }
+
+    #firstOne {
+        margin-top: 70%;
+    }
+
+    #lastOne {
+        margin-bottom: 40%;
+    }
+
+}
