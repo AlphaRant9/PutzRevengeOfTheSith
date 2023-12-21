@@ -94,6 +94,14 @@ body {
         padding: 5px;
     }
 
+    main ul {
+        list-style-type: none;
+        text-align: left;
+        padding: 0;
+        width: auto;
+        max-width: 10000000px;
+    }
+
     p {
         padding: 15px;
         text-align: left;
