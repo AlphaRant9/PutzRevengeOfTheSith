@@ -110,6 +110,11 @@ body {
         padding: 5px;
     }
 
+    #castHeading {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     #castList {
         margin-left: auto;
         margin-right: auto;
