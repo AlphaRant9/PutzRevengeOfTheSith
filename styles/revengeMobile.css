@@ -95,7 +95,7 @@ body {
     }
 
     main ul {
-        list-style-type: circle;
+        list-style-type: disc;
         text-align: left;
         padding: 5px;
     }
