@@ -102,7 +102,7 @@ body {
     main ul {
         list-style-type: disc;
         text-align: left;
-        padding: 5px 5px 5px 1.75em;
+        /*padding: 5px 5px 5px 1.75em;*/
     }
 
     p {
