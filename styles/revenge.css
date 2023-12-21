@@ -10,7 +10,7 @@ main {
 
 body {
     color: #FFFF99;
-    background-image: url("images/background.jpg");
+    background-image: url("../images/background.jpg");
     background-size: cover;
     background-attachment: fixed;
     background-position: top center;
@@ -27,7 +27,7 @@ body {
     max-width: 2200px;
     margin: 3.5em auto;
     background-color: #000044;
-    background-image: url("images/panel.jpg");
+    background-image: url("../images/panel.jpg");
     box-shadow: 0 0 10px 5px white;
     border-radius: 10px;
     padding: 1em;
