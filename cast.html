@@ -18,7 +18,16 @@
         if (bMobile) {
             document.write('<link rel="stylesheet" href="revengeMobile.css">');
         } else {
-            document.write('<link rel="stylesheet" href="revenge.css">');
+            document.write('<link rel="stylesheet" href="revenge.css">' +
+                '<style>\n' +
+                '#credits {\n' +
+                '    float: left;\n' +
+                '    position: fixed;\n' +
+                '    text-align: left;\n' +
+                '    margin: 215px 0 0;\n' +
+                '    width: 150px;\n' +
+                '    font-size: 1em;\n' +
+                '}</style>');
         }
     </script>
     <script src="DisplayMenu.js"></script>
