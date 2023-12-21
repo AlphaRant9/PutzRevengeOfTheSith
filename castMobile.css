@@ -28,7 +28,7 @@
         overflow-wrap: break-word;
         font-size: 135%;
         margin: 250% auto;
-        /*scale: 2;*/
+        scale: 1.5;
     }
 
     #firstOne {
