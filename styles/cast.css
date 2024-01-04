@@ -7,6 +7,10 @@
     font-size: 1em;
 }
 
+#castHeader {
+    margin-left: 150px;
+}
+
 main ul {
     list-style-type: none;
     background-color: transparent;
