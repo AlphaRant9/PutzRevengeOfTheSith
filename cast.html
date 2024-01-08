@@ -16,15 +16,15 @@
             navigator.userAgent.indexOf("Windows Phone") !== -1;
 
         if (bMobile) {
-            document.write('<link rel="stylesheet" href="styles/revengeMobile.css">');
+            document.write('<link rel="stylesheet" href="styles/styleMobile.css">');
             document.write('<link rel="stylesheet" href="styles/castMobile.css">');
         } else {
-            document.write('<link rel="stylesheet" href="styles/revenge.css">');
+            document.write('<link rel="stylesheet" href="styles/style.css">');
             document.write('<link rel="stylesheet" href="styles/cast.css">');
         }
     </script>
     <script src="DisplayMenu.js"></script>
-    <noscript><link rel="stylesheet" href="styles/revenge.css">
+    <noscript><link rel="stylesheet" href="styles/style.css">
               <link rel="stylesheet" href="styles/cast.css"></noscript>
 </head>
 <body>
@@ -34,16 +34,17 @@
     
     <div id="menu-button"><a href="#" onclick="displayMenu()">Menu</a></div>
     <nav id="menu">
-        <ul>
+        <ul style="background-color: transparent;">
             <li><a href="index.html">Home</a>&nbsp;</li>
             <li>Cast&nbsp;</li>
             <li><a href="plot.html">Plot</a>&nbsp;</li>
             <li><a href="https://www.imdb.com/title/tt0121766/reviews">Ratings (IMDb)</a>&nbsp;</li>
             <li><a href="watch.html">Where to Watch</a></li>
         </ul>
+        <hr style="background-color: #FFFF55; border: none; height: 1px; margin-left: 15px; margin-right: 15px;">
+        <p style="background-color: transparent; text-align: left; padding-left: 15px; padding-right: 15px;">
+            Click on the picture to go to the source of the image (for credit and attributions)</p>
     </nav>
-    
-    <p id="credits">Click on the picture to go to the source of the image (for credit and attributions)</p>
     
     <main>
         
@@ -395,7 +396,8 @@
             <a href="https://starwars.fandom.com/wiki/Mal%C3%A9-Dee">"Malé-Dee,"</a>
             <a href="https://starwars.fandom.com/wiki/Keira_Wingate">"Kiera Wingate,"</a>
             <a href="https://starwars.fandom.com/wiki/Sandi_Finlay">"Sandi Finlay,"</a> and
-            <a href="https://starwars.fandom.com/wiki/Hayley_Mooy">"Hayley Mooy."</a></p>
+            <a href="https://starwars.fandom.com/wiki/Hayley_Mooy">"Hayley Mooy."</a>
+            <br>Copyright Evie Putz &copy; 2023</p>
     </footer>
 </div>
 </body>
